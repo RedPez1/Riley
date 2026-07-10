@@ -1,0 +1,146 @@
+@font-face {
+  font-family: titleFont;
+  src: url(fonts/Grained-Demo.ttf); /* romantic font */
+}
+
+@font-face {
+  font-family: bodyFont;
+  src: url(fonts/OPTIMA.TTF); /* romantic font */
+}
+
+p {
+  font-family: Arial, sans-serif; /* default font */
+  font-size: 16px; /* default font size */
+  line-height: 1.5; /* line height for readability */
+  margin: 20px; /* margin around paragraphs */
+  
+}
+
+* {
+          cursor: url("images/imresizer-5cc4cac3-794b-4b00-9c33-f90763e009ca.png"), auto;
+      }
+
+body {
+  background-color: #E5E5F7;
+  opacity: 1;
+  background-image:  linear-gradient(135deg, #662466 25%, transparent 25%), linear-gradient(225deg, #662466 25%, transparent 25%), linear-gradient(45deg, #662466 25%, transparent 25%), linear-gradient(315deg, #662466 25%, #E5E5F7 25%);
+  background-position:  60px 0, 60px 0, 0 0, 0 0;
+  background-size: 120px 120px;
+  background-repeat: repeat;
+  background-repeat: repeat;
+  color: #000000; /* black text */
+  font-family: Arial, sans-serif; /* default font */
+  text-align: center; /* center the content */
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-family: titleFont;
+  font-size: 100px; /* large font size for the title */
+  text-align: center; /* center the title */
+  
+  padding: 1px 20px; /* padding around the title */
+  display: inline-block; /* makes the title take its own line */
+  margin: 30px auto;
+  border: 40px solid transparent; /* transparent border for the heart image */
+  border-style: groove; /* groove border style */
+  border-color: #db6262; /* black border color */
+  
+  background-color: #FFB6C1; /* light pink background */
+}
+
+h2 {
+  font-family: bodyFont;
+  font-size: 80px; /* large font size for the title */
+  text-align: center; /* center the title */
+  background-color: #FFB6C1; /* light pink background */
+  padding: 10px 20px; /* padding around the title */
+  display: inline-block; /* makes the title take its own line */
+  margin: 20px auto;
+  background-repeat: no-repeat;
+  border-radius: 5px; /* rounded corners */
+  border: 10px solid #000000; /* black border */
+}
+
+label {
+  font-family: Courier New, monospace; /* default font */
+  font-size: 40px; /* large font size for the title */
+  font-weight: bold; /* bold text */
+  background-color: #765af1; /* light pink background */
+  padding: 10px 20px; /* padding around the title */
+  display: inline-block; /* makes the title take its own line */
+  margin: 20px auto;
+  background-repeat: no-repeat;
+  border-radius: 5px; /* rounded corners */
+  border: 10px solid #000000; /* black border */
+}
+
+select {
+  font-family: Courier New, monospace; /* default font */
+  font-size: 40px !important; /* match label size */ 
+  font-weight: bold; /* bold text */
+  text-align: center; /* center the text */
+  background-color: #765af1; /* light pink background */
+  padding: 10px 20px !important; /* padding around the title */
+  margin: 20px auto;
+  border-radius: 5px; /* rounded corners */
+  border: 10px solid #000000 !important; /* black border */
+}
+
+#First {
+  border-radius: 10px; /* rounded corners */
+    width: 1500px; /* fixed width */
+    height: auto; /* maintain aspect ratio */
+    display: block; /* puts the image on its own line */
+    margin: 20px auto;
+    border: 20px solid transparent; /* transparent border for the heart image */
+  border-style: groove; /* groove border style */
+  border-color: #be913b; /* black border color */
+}
+
+
+.pic {
+  border-radius: 10px; /* rounded corners */
+    width: 1500px; /* fixed width */
+    height: auto; /* maintain aspect ratio */
+    display: block; /* puts the image on its own line */
+    margin: 20px auto;
+    border: 40px solid transparent; /* transparent border for the heart image */
+  border-style: groove; /* groove border style */
+  border-color: #be913b; /* black border color */
+}
+
+select {
+  font-family: courier; /* default font */
+  font-size: 16px; /* default font size */
+  padding: 5px; /* padding inside the select box */
+  margin: 10px; /* margin around the select box */
+  border-radius: 5px; /* rounded corners */
+  border: 1px solid #ccc; /* light gray border */
+  display: inline-block; /* puts the select box on its own line */
+}
+
+#Reid {
+  border-radius: 10px; /* rounded corners */
+    width: 350px; /* fixed width */
+    height: auto; /* maintain aspect ratio */
+    display: block; /* puts the image on its own line */
+    margin: 20px auto;
+    border: 40px solid transparent; /* transparent border for the heart image */
+  border-style: groove; /* groove border style */
+  border-color: #be913b; /* black border color */
+}
+
+h3 {
+  font-family: bodyFont;
+  font-size: 40px; /* large font size for the title */
+  text-align: center; /* center the title */
+  padding: 10px 20px; /* padding around the title */
+  display: inline-block; /* makes the title take its own line */
+  background-color: #c2f537; /* light pink background */
+  margin: 20px auto;
+  background-repeat: no-repeat;
+  border-radius: 5px; /* rounded corners */
+  border: 10px solid #000000; /* black border */
+}
